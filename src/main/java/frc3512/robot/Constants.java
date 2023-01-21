@@ -4,6 +4,7 @@ import com.revrobotics.CANSparkMax.IdleMode;
 import edu.wpi.first.math.geometry.Rotation2d;
 import edu.wpi.first.math.geometry.Translation2d;
 import edu.wpi.first.math.kinematics.SwerveDriveKinematics;
+import edu.wpi.first.math.trajectory.TrapezoidProfile;
 import edu.wpi.first.math.util.Units;
 import frc3512.lib.util.SwerveModuleConstants;
 
@@ -138,5 +139,21 @@ public final class Constants {
       public static final SwerveModuleConstants constants =
           new SwerveModuleConstants(driveMotorID, angleMotorID, canCoderID, angleOffset);
     }
+  }
+
+  public static final class AutoConstants {
+    public static final double kMaxSpeedMetersPerSecond = 3;
+    public static final double kMaxAccelerationMetersPerSecondSquared = 3;
+    public static final double kMaxAngularSpeedRadiansPerSecond = Math.PI;
+    public static final double kMaxAngularSpeedRadiansPerSecondSquared = Math.PI;
+
+    public static final double kPXController = 1;
+    public static final double kPYController = 1;
+    public static final double kPThetaController = 1;
+
+    // Constraint for the motion profilied robot angle controller
+    public static final TrapezoidProfile.Constraints kThetaControllerConstraints =
+        new TrapezoidProfile.Constraints(
+            kMaxAngularSpeedRadiansPerSecond, kMaxAngularSpeedRadiansPerSecondSquared);
   }
 }
