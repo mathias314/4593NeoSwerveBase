@@ -1,4 +1,4 @@
-package frc3512.lib.logging;
+package frc.lib.logging;
 
 import edu.wpi.first.math.geometry.Pose2d;
 import edu.wpi.first.math.geometry.Rotation2d;

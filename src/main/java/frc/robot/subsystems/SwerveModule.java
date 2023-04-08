@@ -1,15 +1,15 @@
-package frc3512.robot.subsystems;
+package frc.robot.subsystems;
 
 import edu.wpi.first.math.controller.SimpleMotorFeedforward;
 import edu.wpi.first.math.geometry.Rotation2d;
 import edu.wpi.first.math.kinematics.SwerveModulePosition;
 import edu.wpi.first.math.kinematics.SwerveModuleState;
-import frc3512.lib.logging.SpartanDoubleEntry;
-import frc3512.lib.motion.SpartanCANCoder;
-import frc3512.lib.motion.SpartanSparkMax;
-import frc3512.lib.util.CANSparkMaxUtil.Usage;
-import frc3512.lib.util.SwerveModuleConstants;
-import frc3512.robot.Constants;
+import frc.lib.logging.SpartanDoubleEntry;
+import frc.lib.motion.SpartanCANCoder;
+import frc.lib.motion.SpartanSparkMax;
+import frc.lib.util.CANSparkMaxUtil.Usage;
+import frc.lib.util.SwerveModuleConstants;
+import frc.robot.Constants;
 
 public class SwerveModule {
   public int moduleNumber;

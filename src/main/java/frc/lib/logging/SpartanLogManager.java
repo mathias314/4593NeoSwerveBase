@@ -1,4 +1,4 @@
-package frc3512.lib.logging;
+package frc.lib.logging;
 
 import edu.wpi.first.networktables.NetworkTableInstance;
 import edu.wpi.first.util.datalog.DataLog;

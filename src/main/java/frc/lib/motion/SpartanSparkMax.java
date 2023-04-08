@@ -1,4 +1,4 @@
-package frc3512.lib.motion;
+package frc.lib.motion;
 
 import com.revrobotics.CANSparkMax;
 import com.revrobotics.CANSparkMax.ControlType;
@@ -6,8 +6,8 @@ import com.revrobotics.CANSparkMax.IdleMode;
 import com.revrobotics.CANSparkMaxLowLevel.MotorType;
 import com.revrobotics.RelativeEncoder;
 import com.revrobotics.SparkMaxPIDController;
-import frc3512.lib.util.CANSparkMaxUtil;
-import frc3512.lib.util.CANSparkMaxUtil.Usage;
+import frc.lib.util.CANSparkMaxUtil;
+import frc.lib.util.CANSparkMaxUtil.Usage;
 
 /* Wrapper class around the Spark Max motor controller.
  * Infers that you are using a NEO or NEO500 brushless motor.

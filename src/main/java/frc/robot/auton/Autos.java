@@ -1,4 +1,4 @@
-package frc3512.robot.auton;
+package frc.robot.auton;
 
 import edu.wpi.first.math.controller.PIDController;
 import edu.wpi.first.math.controller.ProfiledPIDController;
@@ -11,8 +11,8 @@ import edu.wpi.first.math.trajectory.TrajectoryGenerator;
 import edu.wpi.first.wpilibj2.command.InstantCommand;
 import edu.wpi.first.wpilibj2.command.SequentialCommandGroup;
 import edu.wpi.first.wpilibj2.command.SwerveControllerCommand;
-import frc3512.robot.Constants;
-import frc3512.robot.subsystems.Swerve;
+import frc.robot.Constants;
+import frc.robot.subsystems.Swerve;
 import java.util.List;
 
 public class Autos extends SequentialCommandGroup {

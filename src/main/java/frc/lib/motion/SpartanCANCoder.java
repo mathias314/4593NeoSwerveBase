@@ -1,12 +1,12 @@
-package frc3512.lib.motion;
+package frc.lib.motion;
 
 import com.ctre.phoenix.sensors.AbsoluteSensorRange;
 import com.ctre.phoenix.sensors.CANCoder;
 import com.ctre.phoenix.sensors.CANCoderConfiguration;
 import com.ctre.phoenix.sensors.SensorInitializationStrategy;
 import com.ctre.phoenix.sensors.SensorTimeBase;
-import frc3512.lib.util.CANCoderUtil;
-import frc3512.lib.util.CANCoderUtil.CANCoderUsage;
+import frc.lib.util.CANCoderUtil;
+import frc.lib.util.CANCoderUtil.CANCoderUsage;
 
 /* Wrapper class around the CANCoder. */
 public class SpartanCANCoder {

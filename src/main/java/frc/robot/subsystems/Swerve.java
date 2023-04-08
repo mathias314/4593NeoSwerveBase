@@ -1,4 +1,4 @@
-package frc3512.robot.subsystems;
+package frc.robot.subsystems;
 
 import com.ctre.phoenix.sensors.Pigeon2;
 import edu.wpi.first.math.estimator.SwerveDrivePoseEstimator;
@@ -12,9 +12,9 @@ import edu.wpi.first.math.kinematics.SwerveModuleState;
 import edu.wpi.first.wpilibj.smartdashboard.Field2d;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
-import frc3512.lib.logging.SpartanDoubleEntry;
-import frc3512.lib.logging.SpartanPose2dEntry;
-import frc3512.robot.Constants;
+import frc.lib.logging.SpartanDoubleEntry;
+import frc.lib.logging.SpartanPose2dEntry;
+import frc.robot.Constants;
 
 public class Swerve extends SubsystemBase {
   private final Pigeon2 gyro;
